@@ -1,6 +1,9 @@
 package lesson5;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import static java.lang.Thread.sleep;
 public class Main {
+
     public static void main(String[] args) {
         Warrior warior = new Warrior();
         Warrior warior1 = new Warrior();
